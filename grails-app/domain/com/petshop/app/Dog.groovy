@@ -6,6 +6,8 @@ class Dog {
     String description
     Date registerAt
 
+
+    static belongsTo = [owner:Owner]
     static mapping = {
         version false
     }
